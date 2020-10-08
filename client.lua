@@ -37,7 +37,7 @@ AddEventHandler('grachu:waliszwzyle', function()
 			end
 			TaskPlayAnim(playerPed, 'mp_player_intdrink', 'loop_bottle', 1.0, -1.0, 3000, 0, 1, true, true, true)
             Wait(3000)
-            TriggerClientEvent("pNotify:SendNotification", src, {text = "ODCZUWASZ WSTRZĄS ENERGETYCZNY", type = "atlantis", queue = "global", timeout = 2000, layout = "atlantis"})
+            TriggerClientEvent("pNotify:SendNotification", src, {text = "Zmiata Cię Z Planszy BYQU", type = "atlantis", queue = "global", timeout = 2000, layout = "atlantis"})
 	        animacja = false
 	        ClearPedSecondaryTask(playerPed)
 			DeleteObject(prop)
